@@ -1,0 +1,12 @@
+
+scriptencoding utf-8
+
+if has("syntax")
+  syntax on
+endif
+
+
+set autoindent
+set cindent
+set nu
+set statusline=\ %<%l:%v\ [%P]%=%a\ %h%m%r\ %F\
